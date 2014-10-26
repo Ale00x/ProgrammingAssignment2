@@ -26,16 +26,15 @@ makeCacheMatrix <- function(m = matrix()) {
         }
         
         ## get the inverse 
-        getInverse <- function() {
+        getInverse <- function(inverse) {
                 ## return the inverse matrix
                 i
         }
         
         ## return a list of the functions
         list(set = set, get = get)
-             setInverse = setInverse,
-             getInverse = getInverse
-        
+             setInverse = setInverse
+             getInverse = getInverse   
 }
 
 ## Compute the inverse of the matrix returned by "makeCacheMatrix" above. 
